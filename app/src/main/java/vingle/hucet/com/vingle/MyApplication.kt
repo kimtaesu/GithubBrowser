@@ -4,6 +4,7 @@ import android.app.Activity
 import android.app.Application
 import android.content.Context
 import android.os.StrictMode
+import com.airbnb.deeplinkdispatch.DeepLink
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
@@ -16,6 +17,7 @@ import javax.inject.Inject
 /**
  * Created by taesu on 2017-12-04.
  */
+
 class MyApplication : Application(), HasActivityInjector {
 
     override fun onCreate() {

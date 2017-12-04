@@ -17,10 +17,15 @@ import vingle.hucet.com.vingle.model.ViewType
 /**
  * Created by taesu on 2017-12-04.
  */
-class GithubAdapter(private val glideRequests: GlideRequests) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class GithubAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private val items: ArrayList<Basic> = arrayListOf()
 
+    private var glideRequests: GlideRequests? = null
+
+    fun setGlideRequest(glideRequests: GlideRequests) {
+        this.glideRequests = glideRequests
+    }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val item = items[position]
@@ -29,9 +34,10 @@ class GithubAdapter(private val glideRequests: GlideRequests) : RecyclerView.Ada
                 item as UserInfo
                 holder as UserViewHolder
                 holder.name.text = item.login
-                glideRequests
-                        .load(item.avatar_url)
-                        .into(holder.avatar)
+                glideRequests?.run {
+                    load(item.avatar_url)
+                            .into(holder.avatar)
+                }
             }
             ViewType.REPO -> {
                 item as Repo

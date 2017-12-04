@@ -16,12 +16,8 @@ import vingle.hucet.com.vingle.view.MainActivity
  */
 @Module
 class AdapterModule {
-    @PerActivity
-    @Provides
-    fun provideGlideApp(mainActivity: MainActivity): GlideRequests = GlideApp.with(mainActivity)
 
     @PerActivity
     @Provides
-    fun provideAdapter(glideRequests: GlideRequests): GithubAdapter = GithubAdapter(glideRequests)
-
+    fun provideAdapter(): GithubAdapter = GithubAdapter()
 }

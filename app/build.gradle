@@ -104,6 +104,10 @@ dependencies {
     implementation httpDeps.converter_moshi
     implementation httpDeps.retrofit
     implementation httpDeps.retrofitRxjavaAdapter
+
+    implementation 'com.airbnb:deeplinkdispatch:3.1.1'
+    kapt 'com.airbnb:deeplinkdispatch-processor:3.1.1'
+
 }
 afterEvaluate {
     compileDebugUnitTestKotlin {
