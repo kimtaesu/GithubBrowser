@@ -6,4 +6,7 @@ package vingle.hucet.com.vingle.model
 data class UserInfo(
         val login: String,
         val avatar_url: String
-) : Basic()
+) : Basic() {
+    override val viewType: ViewType
+        get() = ViewType.USER
+}

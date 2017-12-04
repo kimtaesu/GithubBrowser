@@ -13,7 +13,7 @@ class GithubRepository(private val githubDatasource: GithubDataSource) {
                 .concatMap { userInfo ->
                     githubDatasource.getRepos(userName)
                             .map {
-                                it.sortedBy { it.stargazers_count }
+                                it.sortedByDescending { it.stargazers_count }
                             }
                             .map { repos ->
                                 val list = ArrayList<Basic>()
