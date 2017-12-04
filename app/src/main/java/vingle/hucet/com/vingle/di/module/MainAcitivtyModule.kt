@@ -12,6 +12,7 @@ import vingle.hucet.com.vingle.view.MainActivity
 abstract class MainAcitivtyModule {
     @PerActivity
     @ContributesAndroidInjector(modules = arrayOf(
+            PresenterModule::class
     ))
     abstract fun bindMainActivity(): MainActivity
 }

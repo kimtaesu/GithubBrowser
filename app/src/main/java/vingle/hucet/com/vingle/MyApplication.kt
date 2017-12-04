@@ -17,7 +17,7 @@ import javax.inject.Inject
  * Created by taesu on 2017-12-04.
  */
 class MyApplication : Application(), HasActivityInjector {
-    @Inject lateinit var activityDispatchingAndroidInjector: DispatchingAndroidInjector<Activity>
+
     override fun onCreate() {
         super.onCreate()
         initDagger()
@@ -26,9 +26,6 @@ class MyApplication : Application(), HasActivityInjector {
         initStetho()
     }
 
-    override fun activityInjector(): AndroidInjector<Activity> {
-        return activityDispatchingAndroidInjector
-    }
 
     private fun initDagger() {
         AppInjector.init(this)
@@ -73,5 +70,10 @@ class MyApplication : Application(), HasActivityInjector {
                 e.printStackTrace()
             }
         }
+    }
+
+    @Inject lateinit var activityDispatchingAndroidInjector: DispatchingAndroidInjector<Activity>
+    override fun activityInjector(): AndroidInjector<Activity> {
+        return activityDispatchingAndroidInjector
     }
 }

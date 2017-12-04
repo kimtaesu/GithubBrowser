@@ -7,6 +7,7 @@ import dagger.android.support.AndroidSupportInjectionModule
 import org.buffer.android.boilerplate.ui.injection.module.ApplicationModule
 import vingle.hucet.com.vingle.MyApplication
 import vingle.hucet.com.vingle.di.module.MainAcitivtyModule
+import vingle.hucet.com.vingle.di.module.NetworkModule
 import javax.inject.Singleton
 
 /**
@@ -14,8 +15,8 @@ import javax.inject.Singleton
  */
 @Singleton
 @Component(modules = arrayOf(
-        MainAcitivtyModule::class,
         ApplicationModule::class,
+        MainAcitivtyModule::class,
         AndroidSupportInjectionModule::class))
 interface ApplicationComponent {
 
