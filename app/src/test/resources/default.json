@@ -1,0 +1,134 @@
+[
+  {
+    "description": "\u003c파이썬 코딩의 기술\u003e Effective Python 이펙티브 파이썬",
+    "name": "006764",
+    "stargazers_count": 0
+  },
+  {
+    "name": "algorithm",
+    "stargazers_count": 0
+  },
+  {
+    "description": "A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
+    "name": "android-architecture",
+    "stargazers_count": 0
+  },
+  {
+    "name": "android-weekly",
+    "stargazers_count": 0
+  },
+  {
+    "name": "AndroidTDD",
+    "stargazers_count": 0
+  },
+  {
+    "name": "AndroidTodoList",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Extensible, reliable and modular starter project for Angular 2 (and beyond) with statically typed build and AoT compilation",
+    "name": "angular-seed",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Angular 2 - Tour of Heroes - The Next Step after Getting Started",
+    "name": "angular2-tour-of-heroes",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Angularjs2 Tutorial",
+    "name": "Angularjs2-tutorial",
+    "stargazers_count": 0
+  },
+  {
+    "name": "AngularTest",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Build a Jekyll blog in minutes, without touching the command line.",
+    "name": "asdad",
+    "stargazers_count": 0
+  },
+  {
+    "name": "AuthService",
+    "stargazers_count": 0
+  },
+  {
+    "description": "github pages",
+    "name": "chippd.github.io",
+    "stargazers_count": 0
+  },
+  {
+    "description": "A fork of our clean architecture boilerplate, this time using the Android Architecture Components",
+    "name": "clean-architecture-components-boilerplate",
+    "stargazers_count": 0
+  },
+  {
+    "name": "CleanGallery",
+    "stargazers_count": 0
+  },
+  {
+    "name": "com.expense.example",
+    "stargazers_count": 0
+  },
+  {
+    "name": "com.hucet.tdd",
+    "stargazers_count": 0
+  },
+  {
+    "name": "com.tdd.practice",
+    "stargazers_count": 0
+  },
+  {
+    "name": "ConfigurationTest",
+    "stargazers_count": 0
+  },
+  {
+    "description": "This sample is part of a tutorial on how to use the new dagger-android module, which was released in Dagger 2.10.",
+    "name": "dagger-androidinjector",
+    "stargazers_count": 0
+  },
+  {
+    "name": "DaggerTutorial",
+    "stargazers_count": 0
+  },
+  {
+    "name": "DefaultFactory",
+    "stargazers_count": 0
+  },
+  {
+    "name": "demo",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Design Patterns implemented in Kotlin",
+    "name": "Design-Patterns-In-Kotlin",
+    "stargazers_count": 0
+  },
+  {
+    "name": "DesignPattern",
+    "stargazers_count": 0
+  },
+  {
+    "name": "DjangoTutorial",
+    "stargazers_count": 0
+  },
+  {
+    "name": "Docker-Mysql",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Dump the UI hierarchy of the screen of android",
+    "name": "DumpHierarchy",
+    "stargazers_count": 0
+  },
+  {
+    "description": "Clean Coders Episode 10 OCP Expense Example",
+    "name": "expense",
+    "stargazers_count": 0
+  },
+  {
+    "name": "FcmApplication",
+    "stargazers_count": 0
+  }
+]
